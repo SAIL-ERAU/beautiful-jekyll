@@ -30,7 +30,6 @@ navbar-links:
   Resources:
     - Getting started: "getstarted"
     - Featured users: "featured-users"
-    - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
   Contact: "contact"
 
 # --- Footer options --- #
