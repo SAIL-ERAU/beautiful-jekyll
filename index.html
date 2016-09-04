@@ -1,8 +1,29 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: OSCOM
+subtitle: Optical tracking and Spectral characterization of CubeSats for Operational Missions
+fb-img: "http://deanattali.com/img/blog/beautiful-jekyll.png"
 ---
+<!-- Why does fb-img need to go to that link? -->
+
+<div class="main-explain-area jumbotron">
+  <!-- <p>Optical and spectral features of orbital objects can be used to determine physical parameters such as spin rate, attitude, status of deployables, material makeup and degradation, and more. This information can be used to characterize, categorize, and monitor uncontrolled or unknown space objects, as well as <em>indpendently</em> provide diagnostic information for operational satellites, large or small.</p> -->
+
+  <p>OSCOM is an optical tracking and characterization system designed specifically for responsive observation and analysis of <em>small</em> satellites and debris.</p>
+  <p>Its goal is to independently provide <strong>actionable information</strong> to spacecraft operators and engineers on the physical state of resident space objects.</p>
+  <p>OSCOM is a program of the <a href="http://sail.erau.edu">Space and Atmospheric Instrumentation Lab</a> at <a href="erau.edu">Embry-Riddle Aeronautical University</a> in Daytona Beach, FL.
+
+
+<!--   <div class="get-started-wrap">
+    <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
+  </div>
+  <p>This template was designed to look great on both desktops and smaller (mobile) devices.</p>
+  <p>Below are sample blog posts for illustration purposes.</p>
+  <p>If you like this theme, please consider supporting me :)</p>
+  <div id="paypalbtn">
+    <a class="btn btn-primary btn-lg" href="https://www.paypal.me/daattali/10">Donate via PayPal</a> -->
+  <!-- </div> -->
+</div>
 
 <div class="posts-list">
   {% for post in paginator.posts %}
@@ -24,6 +45,7 @@ subtitle: This is where I will tell my friends way too much about me
     <div class="post-entry">
       {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
+
     </div>
 
     {% if post.tags.size > 0 %}
