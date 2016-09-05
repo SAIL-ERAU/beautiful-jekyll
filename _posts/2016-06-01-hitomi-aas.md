@@ -8,7 +8,11 @@ OSCOM collected several high frame rate observations of the Japanese X-ray astro
 
 Several of the reduced light curves including a simultaneous multi-site observation was presented by Sergei Bilardi at the 228th meeting of the American Astronomical Society in San Diego, CA. An abstract of the presented work is available on [ADS](http://adsabs.harvard.edu/abs/2016AAS...22812103G).
 
+<embed src="../data/AASPoster2016.pdf" width="100%" height="440px" type='application/pdf'>
+
 ---
+
+We would love to accept our nomination for the bittersweet award, but unfortunately it doesn't exist...
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If there is a bittersweet award, I nominate the poster on High Cadence Photometry of the Tumbling Hitomi X-ray Satellite <a href="https://twitter.com/hashtag/aas228?src=hash">#aas228</a> 121.03</p>&mdash; John Gizis (@johngizis) <a href="https://twitter.com/johngizis/status/742462625716391936">June 13, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>

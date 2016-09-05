@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Facilities and equipment
+title: Facilities & equipment
 <!-- subtitle: How to use Beautiful Jekyll -->
 <!-- bigimg: /img/start.jpg -->
 ---
