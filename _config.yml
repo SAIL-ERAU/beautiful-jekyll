@@ -28,12 +28,13 @@ avatar: "/img/sail-logo-square-white.png"
 # List of links in the navigation bar
 navbar-links:
   Research:
+    - Overview: "overview"  # Description of satellite illumination process and what we do
     - CubeSats & Nanosats: "cubesats" 
     - GEO & Debris: "geo-and-debris"
     - Multisite observations: "multisite"
-  Facilities: "facilities-and-equipment"
+    # Link between these pages on each page ^^
+  Facilities & Equipment: "facilities-and-equipment"
   Gallery: "gallery"
-  News: ""
 
 # --- Footer options --- #
 
@@ -93,7 +94,7 @@ permalink: /:year-:month-:day-:title/
 paginate: 3
 
 kramdown:
-  input: GFM
+  input: GFM  # GitHub flavored markdown
 
 # Default YAML values (more information on Jekyll's site)
 defaults:

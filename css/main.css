@@ -93,6 +93,29 @@ img {
   max-width: 100%;
 }
 
+img + em {  }
+
+.center-caption {
+  text-align: center;
+  font-size: 11pt;
+}
+
+.center-image {
+  margin: 0 auto;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .disqus-comments {
   margin-top: 30px;
 }
@@ -322,6 +345,7 @@ footer .theme-by {
 }
 .post-preview .post-subtitle {
   margin: 0;
+  font-size: 24px;
   font-weight: 300;
   margin-bottom: 10px;
 }
@@ -341,11 +365,10 @@ footer .theme-by {
 
 @media only screen and (min-width: 768px) {
   .post-preview .post-title {
-    font-size: 36px;
+    font-size: 30px;
   }
 }
 
-<<<<<<< HEAD
 /* --- Tags --- */
 
 .blog-tags {
@@ -416,46 +439,6 @@ footer .theme-by {
   color: #FFF;
   text-shadow: 1px 1px 3px #000;
 }
-=======
-/* --- Post and page headers --- */
-
-.intro-header {
-  margin: 80px 0 20px;
-  position: relative;
-}
-.intro-header.big-img {
-  background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  margin-top: 51px; /* The small navbar is 50px tall + 1px border */
-  margin-bottom: 35px;
-}
-.intro-header.big-img  .big-img-transition {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  background: no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-  -webkit-transition: opacity 1s linear;
-  -moz-transition: opacity 1s linear;
-  transition: opacity 1s linear;
-}
-.intro-header .page-heading {
-  text-align: center;
-}
-.intro-header.big-img .page-heading,
-.intro-header.big-img .post-heading {
-  padding: 100px 0;
-  color: #FFF;
-  text-shadow: 1px 1px 3px #000;
-}
->>>>>>> gh-pages
 .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
@@ -645,7 +628,6 @@ table tr td :last-child {
 pre {
   font-size: 16px;
   line-height: 1.5em;
-<<<<<<< HEAD
 }
 pre code {
   white-space: pre;
@@ -681,12 +663,4 @@ td.gutter {
 
 #social-share-section {
   margin-bottom: 30px;
-=======
-  background: #FAFAFA;
-  background-image: linear-gradient(#FAFAFA 50%, #FDFDFD 50%);
-  background-position: 0px 10px;
-  background-repeat: repeat;
-  background-size: 3em 3em;
-  border-left: 7px solid #444;
->>>>>>> gh-pages
 }

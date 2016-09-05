@@ -1,46 +1,42 @@
 ---
 layout: page
 title: Facilities and equipment
-subtitle: How to use Beautiful Jekyll
-bigimg: /img/start.jpg
+<!-- subtitle: How to use Beautiful Jekyll -->
+<!-- bigimg: /img/start.jpg -->
 ---
 
-**Beautiful Jekyll** is a ready-to-use template to make help you create an awesome Jekyll or GitHub Pages website quickly. 
+OSCOM is fortunate to have a selection of equipment available at hand in Daytona Beach, FL to provide the right tool to meet particular observation needs.
 
-To learn how you can use **Beautiful Jekyll** to create your website in minutes, go to the [Beautiful Jekyll GitHub page](https://github.com/daattali/beautiful-jekyll#readme).
+### PlaneWave CDK20
 
+The CDK20 is a 0.5 meter Corrected Dall-Kirkham telescope. The 20 inch diameter primary mirror is the ideal size for spatially resolved observations of large LEO satellites. It provides a good balance of better diffraction limit over smaller telescopes without being so large that atmospheric scintillation prohibits clear images. Being f/6.8, it is optically faster than most telescopes this size, meaning it is also suited to observe fairly dim targets.
 
-<div class="get-started-wrap">
-  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
-</div>
-<br/>
+{: .center-caption}
+![CDK20 telescope in Creekside Observatory](../img/creekside.jpg){: .center-image width="40%"}
+CDK20 telescope in Creekside Observatory.
 
-## Overview of steps required
+### DFM 1 meter
 
-There are only three simple steps, so using **Beautiful Jekyll** is *literally* as easy as 1-2-3 :)    
+The [Embry-Riddle Daytona Beach Observatory](https://observatory.db.erau.edu/) is part of the Department of Physical Sciences and is available to OSCOM to make observations of very dim objects. Being located in Daytona Beach, FL, it is extremely easy for OSCOM team members to mount instruments specifically for satellite observations---even at the last minute. This telescope collects four times as much light as the CDK20 and has several high quality wide field refractors co-mounted with the main 1 meter telescope. 
 
-Here is a 40-second video showing how to get started, with the specific steps below.  For a more complete installation guide, [visit the Beautiful Jekyll page](https://github.com/daattali/beautiful-jekyll#readme).
+{: .center-caption}
+![DFM 1 meter telescope](../img/dfm.png){: .center-image width="60%"}
+DFM 1 meter telescope in Embry-Riddle's Daytona Beach Observatory.
 
-<img src="../img/install-steps.gif" style="width:100%;" alt="Installation steps" />
+### Celestron RASA 11
 
-### 1. Fork the Beautiful Jekyll repository 
+The 11 inch Celestron Rowe Ackermann Schmidt Astrograph is a commercial-off-the-shelf (COTS) telescope uniquely capable of observing dim targets. Although much smaller, its fast f/2.2 optics deliver about the same number of photons per pixel as the CDK20 does for the same detector. This has become our primary instrument for unresolved satellite photometry and can easily be deployed to the field if necessary.
 
-Fork the [repository](https://github.com/daattali/beautiful-jekyll) by clicking the Fork button on the top right corner in GitHub.
-
-### 2. Rename the repository to `yourusername.github.io`
-
-This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at http://yourusername.github.io (sometimes it takes a few minutes).
-
-### 3. Customize settings
-
-Edit the `_config.yml` file to change all the settings to reflect your site.  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further.  Every time you make a change to any file, your website will get rebuilt and should be updated at `yourusername.github.io` within a minute.
-
-You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages.
+{: .center-caption}
+![RASA 11 deployed in the field](../img/field-rasa.png){: .center-image width="40%"}
+11 inch RASA field deployed in Needham, MA.
 
 ---
 
-See how easy that is? I wasn't lying - it really can be done in two minutes.
+### Detectors
 
-<div class="get-started-wrap">
-  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
-</div>
+OSCOM has several fast CCD and CMOS detectors available for observations. These include Finger Lakes Instrumentation Microline and Lumenera SKYnyx CCDs, as well as the Allied Vision Manta G-235 using the Sony Pregius CMOS sensor.
+
+<!-- TODO: put image of manta here -->
+
+Standard photometric filters including both UBVRI and u'g'r'i'z' are available for use on all of these detectors. IR pass and cut filters have also been used, especially for spatially resolved imaging.

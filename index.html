@@ -11,7 +11,7 @@ fb-img: "http://deanattali.com/img/blog/beautiful-jekyll.png"
 
   <p>OSCOM is an optical tracking and characterization system designed specifically for responsive observation and analysis of <em>small</em> satellites and debris.</p>
   <p>Its goal is to independently provide <strong>actionable information</strong> to spacecraft operators and engineers on the physical state of resident space objects.</p>
-  <p>OSCOM is a program of the <a href="http://sail.erau.edu">Space and Atmospheric Instrumentation Lab</a> at <a href="erau.edu">Embry-Riddle Aeronautical University</a> in Daytona Beach, FL.
+  <p>OSCOM is a program of the <a href="http://sail.erau.edu">Space and Atmospheric Instrumentation Lab</a> at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a> in Daytona Beach, FL.
 
 
 <!--   <div class="get-started-wrap">
@@ -39,11 +39,11 @@ fb-img: "http://deanattali.com/img/blog/beautiful-jekyll.png"
     </a>
 
     <p class="post-meta">
-      Posted on {{ post.date | date: "%B %-d, %Y" }}
+      {{ post.date | date: "%B %-d, %Y" }}
     </p>
 
     <div class="post-entry">
-      {{ post.content | strip_html | xml_escape | truncatewords: 50 }}
+      {{ post.content | strip_html | xml_escape | truncatewords: 40 }}
 	  <a href="{{ post.url | prepend: site.baseurl }}" class="post-read-more">[Read&nbsp;More]</a>
 
     </div>
