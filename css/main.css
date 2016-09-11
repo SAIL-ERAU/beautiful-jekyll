@@ -106,6 +106,12 @@ img + em {  }
   display: block;
 }
 
+.inline-image-right {
+  text-align: right
+  margin: 2px;
+  display: inline
+}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,

@@ -16,5 +16,3 @@ We would love to accept our nomination for the bittersweet award, but unfortunat
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">If there is a bittersweet award, I nominate the poster on High Cadence Photometry of the Tumbling Hitomi X-ray Satellite <a href="https://twitter.com/hashtag/aas228?src=hash">#aas228</a> 121.03</p>&mdash; John Gizis (@johngizis) <a href="https://twitter.com/johngizis/status/742462625716391936">June 13, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<!-- TODO: Include poster pdf here -->

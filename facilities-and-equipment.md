@@ -23,7 +23,7 @@ The [Embry-Riddle Daytona Beach Observatory](https://observatory.db.erau.edu/) i
 ![DFM 1 meter telescope](../img/dfm.png){: .center-image width="60%"}
 DFM 1 meter telescope in Embry-Riddle's Daytona Beach Observatory.
 
-### Celestron RASA 11
+### <a name="equipment-rasa"></a>Celestron RASA 11
 
 The 11 inch Celestron Rowe Ackermann Schmidt Astrograph is a commercial-off-the-shelf (COTS) telescope uniquely capable of observing dim targets. Although much smaller, its fast f/2.2 optics deliver about the same number of photons per pixel as the CDK20 does for the same detector. This has become our primary instrument for unresolved satellite photometry and can easily be deployed to the field if necessary.
 
