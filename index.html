@@ -2,6 +2,7 @@
 layout: page
 title: OSCOM
 subtitle: Optical tracking and Spectral characterization of CubeSats for Operational Missions
+show-avatar: false
 fb-img: "http://deanattali.com/img/blog/beautiful-jekyll.png"
 bigimg:
   - "/img/noaa12.gif" : "NOAA 12 (Jan 20, 2016)"
@@ -9,18 +10,24 @@ bigimg:
 <!-- Why does fb-img need to go to that link? -->
 
 <div class="main-explain-area jumbotron">
-  <p>OSCOM is an optical tracking and characterization system designed specifically for responsive observation and analysis of <strong>small</strong> satellites and debris.</p>
+  <p>OSCOM is an optical tracking and characterization system designed specifically for responsive observation and analysis of <strong>small satellites</strong> and <strong>debris</strong>.</p>
 
   <p>Its goal is to independently provide <strong>actionable information</strong> to spacecraft operators and engineers on the physical state of resident space objects.</p>
-</div>
 
-<div class="main-explain-area">
-  <p>OSCOM is supported by a diverse team of Embry-Riddle students and engineers whose expertise incldes small satellites, systems engineering, observational astronomy, data analysis, control systems, and computer science. Research efforts are led by Dr. Barjatya, Dr. von Hippel, and Dr. Reyhanoglu.</p>
+  <hr />
+
+  <p>OSCOM is supported by a diverse team of Embry-Riddle students and engineers whose expertise incldes small satellites, systems engineering, observational astronomy, data analysis, control systems, and computer science. Research efforts are led by <a href="http://faculty.erau.edu/Aroh.Barjatya">Dr. Aroh Barjatya</a> and <a href="http://faculty.erau.edu/Ted.VonHippel">Dr. Ted von Hippel</a>.</p>
 
   <p>OSCOM is a program of the <a href="http://sail.erau.edu">Space and Atmospheric Instrumentation Lab</a> at <a href="https://erau.edu">Embry-Riddle Aeronautical University</a> in Daytona Beach, FL.</p>
-</div>
 
-<hr />
+    <a href="http://sail.erau.edu">
+    <img style="float: left; width: 40%;" src="{{site.baseurl}}\img\sail-logo-large.png">
+    </a>
+    <a href="https://erau.edu">
+    <img style="float: right; width: 50%; margin-top: 40px" src="{{site.baseurl}}\img\erau-db.png">
+    </a>
+    <p style="clear: both;">
+</div>
 
 <div class="posts-list">
   {% for post in paginator.posts %}

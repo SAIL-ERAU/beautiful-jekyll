@@ -1,6 +1,7 @@
 ---
 layout: page
-title: CubeSats and NanoSats
+title: LEO SmallSats and Debris
+subtitle: Tracking and photometry of low Earth orbit satellites
 css: "/css/index.css"
 bigimg:
     - "/img/popacs3-1-20-i1180.png" : "POPACS-3 (Jan 20, 2016)"
@@ -8,7 +9,7 @@ bigimg:
 
 ## Bringing small satellites to light
 
-OSCOM's primary focus is _characterization_ and _operational mission support_ of CubeSats, nanosats, and other small satellites. Precision photometry of these objects in low Earth orbit (LEO) is difficult not only because of the high angular rate as these objects pass over the observatory site, but even with accurate timekeeping and telescope pointing, the accuracy of source orbital elements for small resident space objects is often lacking. These challenges drive several considerations in OSCOM's electro-optical and tracking system design---mainly a fairly wide field of view and the ability to dither the telescope along the satellite track during a pass.
+OSCOM's primary focus is _characterization_ and _operational mission support_ of CubeSats, nanosats, and small debris. Precision photometry of these objects in low Earth orbit (LEO) is difficult not only because of the high angular rate as these objects pass over the observatory site, but even with accurate timekeeping and telescope pointing, the accuracy of source orbital elements for small resident space objects is often lacking. These challenges drive several considerations in OSCOM's electro-optical and tracking system design---mainly a fairly wide field of view and the ability to dither the telescope along the satellite track during a pass.
 
 An example of testing acquisition and tracking controls of NRL's SpinSat small satellite through a small Borg refractor is shown below. At the beginning of the video, the telescope is staring at a star field and waiting for SpinSat to enter the field of view. When it enters, the telescope begins tracking the satellite, which is now visible as a dot while the stars streak by. The dot moves SpinSat is  moved left/right and up/down in the field of view as the mount controls are tested during tracking.
 
