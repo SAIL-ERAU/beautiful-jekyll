@@ -3,6 +3,7 @@ layout: page
 title: Facilities & equipment
 <!-- subtitle: How to use Beautiful Jekyll -->
 <!-- bigimg: /img/start.jpg -->
+<!-- TODO: bigimg of top of coas? or ... -->
 ---
 
 OSCOM is fortunate to have a selection of equipment available at hand in Daytona Beach, FL to provide the right tool to meet particular observation needs.
