@@ -23,3 +23,6 @@ An additional challenge for OSCOM is capturing multi-hertz photometry of these s
 [CanX-6](http://utias-sfl.net/?page_id=205) is a 6.5 kg nanosatellite built by the University of Toronto Institute for Aerospace Studies Space Flight Laboratory (UTIAS-SFL). It's primary mission is a demonstration of space-based automatic identification system (AIS) detection technology. The satellite uses the 20 cm cube Generic Nanosatellite Bus and is in a 630 km orbit.
 
 {% include canx6.html %}
+
+<!-- #### DICE -->
+<!-- TODO: Include video because it flashes -->
