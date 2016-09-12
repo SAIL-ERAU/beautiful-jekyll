@@ -4,8 +4,9 @@ title: LEO SmallSats and Debris
 subtitle: Tracking and photometry of low Earth orbit satellites
 css: "/css/index.css"
 bigimg:
-    - "/img/popacs3-1-20-i1180.png" : "POPACS-3 (Jan 20, 2016)"
+    - "/img/popacs3-1-20-i1180_new.png" : "POPACS-3 (Jan 20, 2016)"
 ---
+<!-- js: "/js/plotly.js" -->
 
 ## Bringing small satellites to light
 
@@ -21,9 +22,19 @@ An additional challenge for OSCOM is capturing multi-hertz photometry of these s
 
 #### CanX-6
 <img style="float: right; margin: 0px 0px 15px 15px;" src="..\img\canx6.jpg" width="20%" />
+
 [CanX-6](http://utias-sfl.net/?page_id=205) is a 6.5 kg nanosatellite built by the University of Toronto Institute for Aerospace Studies Space Flight Laboratory (UTIAS-SFL). It's primary mission is a demonstration of space-based automatic identification system (AIS) detection technology. The satellite uses the 20 cm cube Generic Nanosatellite Bus and is in a 630 km orbit.
 
-{% include canx6.html %}
+<script src="/beautiful-jekyll/js/plotly.js"></script>
+{%include canx6.html %}
+
+#### CanX-3a
+<img style="float: left; margin: 0px 0px 15px 15px;" src="..\img\canx-3a.jpg" width="20%">
+
+CanX-3a, also known as [UniBRITE](http://utias-sfl.net/?page_id=407), uses the same Generic Nanosatellite Bus (GNB) as CanX-6 with 4 UHF wire antennae and a magnetometer, but with the notable absence of CanX-6's VHF payload antenna. CanX-3a has a small telescope for obtaining exoplanet photometry measurements, and therefore requires accurate 3-axis attitude control. OSCOM has observed most of the CanX satellites on many occasions. Below is a typical lightcurve from an observation of CanX-3a.
+
+<script src="/beautiful-jekyll/js/plotly.js"></script>
+{%include canx3a.html %}
 
 <!-- #### DICE -->
 <!-- TODO: Include video because it flashes -->
