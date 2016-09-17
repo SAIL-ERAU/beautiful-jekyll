@@ -13,15 +13,16 @@ Because of their altitude, satellites and debris in Earth orbit are illuminated 
 
 ### OSCOM's research goals
 
-By interpreting the optical and spectral features of resident space objects (RSOs), OSCOM is attempting to estimate physical parameters that describe the object: spin rate, deployable status, material makeup and degradation, attitude, etc. Such information can then be used to characterize, categorize, and monitor uncontrolled or unknown space objects, as well as independently provide diagnostic information for operational satellites, big or small.
+By interpreting the optical and spectral features of resident space objects (RSOs), OSCOM is attempting to estimate physical parameters that describe the object: spin rate, deployable status, material makeup and degradation, attitude, etc. Such information can then be used to characterize and monitor uncontrolled or unknown space objects, as well as _independently_ provide diagnostic information for operational satellites, big or small.
 
-Although OSCOM specializes in small satellites and CubeSats in low Earth orbit (LEO), the project team also develops observational and analysis techniques for solving Space Situational Awareness (SSA) problems with spatially resolved satellites in LEO, satellites in GEO, and debris and near Earth asteroids.
+Although OSCOM specializes in observing small satellites and CubeSats in low Earth orbit (LEO), the project team also develops observational and analysis techniques for solving Space Situational Awareness (SSA) problems with spatially resolved satellites in LEO, satellites in GEO, and debris and near Earth asteroids.
 
 ### Past and present research activities include:
 
 - Robust photometry, spectroscopy, and orbit determination  
-- Spacecraft attitude determination and multi-site simultaneous observational  
+- Spacecraft attitude determination and multi-site simultaneous observation  
 - Mining and heuristic analysis of large datasets  
-- Telescope and detector characterization and tracking system design  
+- Telescope and detector characterization
+- Tracking system design  
 - Lucky/speckle imaging and deconvolution methods for high resolution imaging  
 - CubeSat design and ground truth optical characterization
