@@ -29,3 +29,10 @@ Large satellites in low Earth orbit (LEO) are spatially resolved even when image
     The International Space Station imaged using a CDK20 telescope from Daytona Beach, FL.
     </div>
 </div>
+
+---
+
+<div class="get-started-wrap">
+    <a class="btn btn-success btn-lg get-started-btn" href="../leo">Prev: LEO SmallSats and Debris</a>
+    <a class="btn btn-success btn-lg get-started-btn" href="../multisite">Next: Multi-site Observations</a>
+</div>
