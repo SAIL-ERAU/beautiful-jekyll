@@ -113,6 +113,12 @@ img + em {  }
   display: inline
 }
 
+.image-container img {
+  display:inline-block;
+/*width:100px;  or whatever you want*/
+/*height:100px;  same as above */
+}
+
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,

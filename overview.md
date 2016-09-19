@@ -7,9 +7,11 @@ subtitle: Optical tracking and analysis of space objects
 
 ### Satellite illumination
 
-Because of their altitude, satellites and debris in Earth orbit are illuminated by the sun even after it sets for observers on the ground. During this brief period of time after sunset and before sunrise, sun light reflecting off resident space objects (RSOs) makes them visible against the dark background sky. Each physical feature of a spacecraft contributes to the observed brightness and potentially convolves spectral information into the reflected light. If the illumination geometry and satellite shape is known, the attitude of a spacecraft can be partially determined by identifying the peak of mirror-like specular reflections which follow Newton's Law of Reflection. This condition is met when a satellite facet normal is aligned with the phase angle bisector (PAB) midway between the satellite-to-sun and satellite-to-observer vectors.
+Because of their altitude, satellites and debris in Earth orbit are illuminated by the sun even after it sets for observers on the ground. During this brief period of time after sunset and before sunrise, sunlight reflecting off resident space objects (RSOs) makes them visible against the dark background sky. Each physical feature of a spacecraft contributes to the observed brightness and potentially convolves spectral information into the reflected light. If the illumination geometry and satellite shape is known, the attitude of a spacecraft can be partially determined by identifying the peak of mirror-like specular reflections which follow Newton's Law of Reflection. This condition is met when a satellite facet normal is aligned with the phase angle bisector (PAB) midway between the satellite-to-sun and satellite-to-observer vectors.
 
+{: .center-caption}
 ![Satellite reflection geometry](../img/pab.png){: .center-image width="40%"}
+The specular reflection condition is met when a satellite facet normal coincides with the phase angle bisector, the vector midway between satellite-to-sun and satellite-to-observer vectors.
 
 ### OSCOM's research goals
 
@@ -26,3 +28,11 @@ Although OSCOM specializes in observing small satellites and CubeSats in low Ear
 - Tracking system design  
 - Lucky/speckle imaging and deconvolution methods for high resolution imaging  
 - CubeSat design and ground truth optical characterization
+
+![OSCOM research projects](../img/research_projects.png){: .center-image width="80%"}
+
+---
+
+<div class="get-started-wrap">
+  <a class="btn btn-success btn-lg get-started-btn" href="../leo">Next: LEO SmallSats and Debris</a>
+</div>

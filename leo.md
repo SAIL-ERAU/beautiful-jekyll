@@ -5,6 +5,8 @@ subtitle: Tracking and photometry of low Earth orbit satellites
 css: "/css/index.css"
 bigimg:
     - "/img/popacs3-1-20-i1180_new.png" : "POPACS-3 (Jan 20, 2016)"
+    - "/img/cinema2_2016-04-08_b.png" : "CINEMA-2 (Apr 8, 2016)"
+    - "/img/prisma_2016-02-12.png" : "PRISMA MANGO (Sep 18, 2016)"
 ---
 <!-- js: "/js/plotly.js" -->
 
