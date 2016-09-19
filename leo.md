@@ -16,7 +16,9 @@ OSCOM's primary focus is **characterization** and **operational mission support*
 
 A test of acquisition and tracking of NRL's SpinSat 22 inch diameter satellite through a small Borg refractor is shown below. At the beginning of the video, the telescope is fixed staring at a star field and waiting for SpinSat to enter the field of view. When it enters, the telescope begins tracking the satellite, which is now visible as a dot while the stars streak by. SpinSat is  moved left/right and up/down in the field of view as the mount controls are tested during tracking.
 
-<iframe width="90%" height="400px" src="https://www.youtube.com/embed/KZGikQRROiQ" frameborder="0" allowfullscreen></iframe>
+<div style="text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/KZGikQRROiQ" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Temporally resolved observations
 
@@ -52,5 +54,16 @@ DANDE, the [Drag and Atmospheric Neutral Density Explorer](http://spacegrant.col
 <script src="/beautiful-jekyll/js/plotly.js"></script>
 {%include dande.html %}
 
-<!-- #### DICE -->
-<!-- TODO: Include video because it flashes -->
+#### ASTRO-H (Hitomi) debris object K
+
+Hitomi was a Japanese X-ray astronomy satellite that sufferred a major attitude control system malfunction and broke apart in March 2016. OSCOM tracked several of Hitomi's debris fragments from the week of the breakup through a month out. An observation of debris object K (NORAD ID 41441) on April 4, 2016 is shown flashing in the video below. High cadence photometry at 100 Hz from four days later is below that.
+
+<div style="text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/S8dIHHv5ByE?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
+---
+
+<div class="get-started-wrap">
+    <a class="btn btn-success btn-lg get-started-btn" href="../geo-and-resolved">Prev: Overview</a>
+  <a class="btn btn-success btn-lg get-started-btn" href="../geo-and-resolved">Next: GEO and Resolved Imaging</a>
+</div>

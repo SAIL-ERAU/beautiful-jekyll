@@ -2,39 +2,30 @@
 layout: page
 title: GEO and Resolved Imaging
 subtitle: Large satellites, up close and far
-bigimg: /img/start.jpg
+bigimg: /img/GeoSats_12-16-3.png
 ---
 
-**Beautiful Jekyll** is a ready-to-use template to make help you create an awesome Jekyll or GitHub Pages website quickly. 
+## Geostationary Satellites
 
-To learn how you can use **Beautiful Jekyll** to create your website in minutes, go to the [Beautiful Jekyll GitHub page](https://github.com/daattali/beautiful-jekyll#readme).
+Satellites in geostationary Earth orbit (GEO) have an orbital period equal to Earth's rotational period, meaning they appear fixed in the same part of the sky from any given place on Earth. This orbit is especially convenient for large communication and weather satellites, but despite their size they appear as unresolved points---just like small satellites in LEO.
 
-## Overview of steps required
+Overnight and seasonally the illumination geometry of GEO satellites changes so that observers on Earth see reflections off of different parts of the satellite. Tracking is trivial because the position of GEO satellites are fixed in the sky, but it is usually necessary to observe them over long periods of time for useful information on their physical state.
 
-There are only three simple steps, so using **Beautiful Jekyll** is *literally* as easy as 1-2-3 :)    
+To create the video below, a RASA telescope was pointed at the EchoStar 16 satellite and the mount turned off. Stars move in the sky as Earth rotates while EchoStar 16 and the Rainbow-1 satellite, also in the field of view, remain stationary.
 
-Here is a 40-second video showing how to get started, with the specific steps below.  For a more complete installation guide, [visit the Beautiful Jekyll page](https://github.com/daattali/beautiful-jekyll#readme).
+<div style="text-align:center">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2sF9bm4g7Uo?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>
 
-<img src="../img/install-steps.gif" style="width:100%;" alt="Installation steps" />
+## Resolved Imaging
 
-### 1. Fork the Beautiful Jekyll repository 
+Large satellites in low Earth orbit (LEO) are spatially resolved even when imaged through small aperture telescopes. The primary limitation to the resolution of ground-based satellite images is Earth's atmosphere; the motion of convective cells over an observing site blur the image. OSCOM utilizes several methods to combat atmospheric and other optical effects including speckle imaging and deconvolution.
 
-Fork the [repository](https://github.com/daattali/beautiful-jekyll) by clicking the Fork button on the top right corner in GitHub.
-
-### 2. Rename the repository to `yourusername.github.io`
-
-This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at http://yourusername.github.io (sometimes it takes a few minutes).
-
-### 3. Customize settings
-
-Edit the `_config.yml` file to change all the settings to reflect your site.  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further.  Every time you make a change to any file, your website will get rebuilt and should be updated at `yourusername.github.io` within a minute.
-
-You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages.
-
----
-
-See how easy that is? I wasn't lying - it really can be done in two minutes.
-
-<div class="get-started-wrap">
-  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
+<div class="image-container" style="text-align: center">
+    <img src="../img/ISS_146_decon.png" width="30%">
+    <img src="../img/ISS_182.png" width="30%">
+    <img src="../img/ISS_96.png" width="30%">
+    <div class="center-caption">
+    The International Space Station imaged using a CDK20 telescope from Daytona Beach, FL.
+    </div>
 </div>
