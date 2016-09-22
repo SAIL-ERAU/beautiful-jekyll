@@ -31,9 +31,8 @@ navbar-links:
     - Overview: "overview"  # Description of satellite illumination process and what we do
     - LEO SmallSats & Debris: "leo" 
     - GEO & Resolved Imaging: "geo-and-resolved"
-    - Multi-site observations: "multisite"
+    # - Multi-site observations: "multisite"
   Facilities & Equipment: "facilities-and-equipment"
-  Gallery: "gallery"
 
 # --- Footer options --- #
 
